@@ -1,9 +1,10 @@
+
 # Advanced Meta-Learning Techniques: Prototypical Networks & MAML
 
-##Overview
+## Overview
 This repository contains my solutions to Problem Set 3 from Stanford's XCS330 course. The project focuses on two key meta-learning algorithms, Prototypical Networks (Protonets) and Model-Agnostic Meta-Learning (MAML), applied to few-shot image classification using the Omniglot dataset.
 
-##Project Structure
+## Project Structure
 src/:
 protonet.py: Contains the implementation of Prototypical Networks.
 maml.py: Contains the implementation of Model-Agnostic Meta-Learning (MAML).
@@ -39,7 +40,7 @@ pip install -r requirements.txt
 python protonet.py --num_support 5
 ```
 
-##Running MAML:
+## Running MAML:
 
 ```bash
 
