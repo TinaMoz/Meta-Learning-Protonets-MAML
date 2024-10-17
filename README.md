@@ -21,28 +21,30 @@ MAML is designed to find initial model parameters that can quickly adapt to new 
 ## Installation and Setup
 To set up the project and run the experiments:
 
-Clone the Repository:
+## Clone the Repository:
 
 ```bash
-
 git clone https://github.com/TinaMoz/Meta-Learning-Protonets-MAML.git
-cd meta-learning-PS3
+```
 
 ## Install Dependencies:
 ```bash
 
 pip install -r requirements.txt
+```
 
 ## Running Protonet:
 ```bash
 
 python protonet.py --num_support 5
+```
 
 ##Running MAML:
 
 ```bash
 
 python maml.py
+```
 
 ## Results
 Results from both Prototypical Networks and MAML experiments are saved in .npy files. Detailed analysis of the results can be found in submission.pdf.
